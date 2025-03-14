@@ -1,0 +1,38 @@
+body {
+    font-family: "Times New Roman", Times, serif; /* Define a fonte como SansSerif */
+    font-size: 20pt; /* Define o tamanho da fonte como 20pt */
+    background-color: #d3d3e3;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+.topo {
+    background-color: white;
+    display: flex; /*faz o que estiver dentro ficar na posição escolhida*/
+    align-items: center;
+    justify-content: center;
+  }
+
+  .topo img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin: 5px; /*separa uma imagem da outra*/
+  }
+
+  .nav-container {
+    background-color: white;
+    padding: 5px 0;
+    margin-inline: 2px;
+  }
+  nav ul li {
+    display: inline;
+    margin: 0 50px;
+  }
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
