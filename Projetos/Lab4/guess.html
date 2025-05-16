@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body class="centered">
+
+    <h1>Jogo de Adivinhação</h1>
+    <div id="game-container">
+        <p>Digite um número entre 0 e 10:</p>
+        <input type="number" id="userInput" min="0" max="10">
+        <button onclick="verificarChute()">Tentar</button>
+        <p id="mensagem"></p>
+    </div>
+
+    <script src="guess.js"></script>
+</body>
+</html>

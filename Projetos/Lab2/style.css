@@ -1,0 +1,60 @@
+/* Seletores por tag */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 30px;
+    color: #333;
+}
+
+h1, h3 {
+    color: #2c3e50;
+}
+
+ul {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+/* Seletor por ID */
+#menu {
+    background-color: #34495e;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#menu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Pseudo-classe */
+#menu a:hover {
+    color: #f39c12;
+    text-decoration: underline;
+}
+
+/* Seletor por classe */
+.titulo {
+    text-align: center;
+    font-size: 32px;
+}
+
+.descricao {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+body.centered {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
