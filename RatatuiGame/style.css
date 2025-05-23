@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2a2a2a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 56px;
+    color: #FFD700; /* cor amarela dourada */
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+    color: #333;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-left: 6px solid #FFD700; /* mesma cor dourada */
+    padding-left: 12px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #555;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-left: 4px solid #FFD700;
+    padding-left: 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.historia {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff5e1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: 'Georgia', serif;
+}
+
+.imagens-jogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imagens-jogo img {
+    border-radius: 8px;
+}
+
+.botao-jogar {
+    background-color: #FFD700;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+.botao-jogar:hover {
+    background-color: #e6be00;
+    cursor: pointer;
+}
+
+.perfil-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.perfil {
+    background-color: #fff5e1;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 350px;
+    flex: 1 1 300px;
+}
+
+.perfil h3 {
+    color: #FFD700;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.perfil p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
